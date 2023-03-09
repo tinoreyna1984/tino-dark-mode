@@ -9,7 +9,7 @@
 }
 
 body * {
-  @apply transition-all duration-200;
+  @apply transition-all duration-700;
 }
 
 @layer base {

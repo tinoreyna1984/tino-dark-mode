@@ -9,12 +9,12 @@ export default function Navbar() {
             dark:from-slate-900 dark:to-slate-600
             p-6 shadow-md shadow-white'
         >
-            <Link href='/'><p className='text-4xl font-bold dark:text-slate-200'>MySite</p></Link>
+            <Link href='/'><p className='text-4xl font-bold text-black dark:text-slate-200'>MySite</p></Link>
             <nav className='flex flex-col mt-4 md:flex-row md:mt-0'>
-                <Link className='md:mr-4 text-lg dark:text-slate-200' href='/'>Home</Link>
-                <Link className='md:mr-4 text-lg dark:text-slate-200' href='#'>About</Link>
-                <Link className='md:mr-4 text-lg dark:text-slate-200' href='#'>Portfolio</Link>
-                <Link className='md:mr-4 text-lg dark:text-slate-200' href='#'>Contact</Link>
+                <Link className='md:mr-4 text-lg text-black dark:text-slate-200' href='/'>Home</Link>
+                <Link className='md:mr-4 text-lg text-black dark:text-slate-200' href='#'>About</Link>
+                <Link className='md:mr-4 text-lg text-black dark:text-slate-200' href='#'>Portfolio</Link>
+                <Link className='md:mr-4 text-lg text-black dark:text-slate-200' href='#'>Contact</Link>
                 <DarkModeButton />
             </nav>
         </div>

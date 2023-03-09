@@ -1,8 +1,8 @@
-# Dark mode with Next.js + TailwindCSS
+# Dark mode with Next.js + TailwindCSS + next-themes
 
 ## Features
 
-It's a pretty simple landing page that has a dark mode toggle button. Unlike many other projects, this works with the dark mode functionality from scratch (i.e. does not require any npm library) using React concepts and the dark mode properties that are included in Tailwind.
+It's a pretty simple landing page that has a dark mode toggle button.
 
 ## Installation
 

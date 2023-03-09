@@ -1,14 +1,14 @@
-import { DarkModeContextProvider } from "../utilities/dark-mode/context/dm-context"
 import Navbar from "../components/navbar"
 import "../styles/globals.css"
+import { ThemeProvider } from "next-themes"
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <DarkModeContextProvider>
+      <ThemeProvider attribute="class">
         <Navbar />
         <Component {...pageProps} />
-      </DarkModeContextProvider>
+      </ThemeProvider>
     </>
   )
 }

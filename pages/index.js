@@ -19,8 +19,8 @@ export default function Home() {
           dark:from-stone-800 dark:to-stone-600'
         >
           <div className='flex flex-col items-start justify-center mx-4 sm:max-w-[744px] my-5 xl:my-0'>
-            <h1 className='font-bold text-4xl drop-shadow-xl dark:text-stone-200'>Art Studio</h1>
-            <p className='my-4 dark:text-stone-200'>Eiusmod amet tempor quis consequat.
+            <h1 className='font-bold text-4xl drop-shadow-xl text-black dark:text-stone-200'>Art Studio</h1>
+            <p className='my-4 text-black dark:text-stone-200'>Eiusmod amet tempor quis consequat.
               Minim elit eiusmod eiusmod sit dolor sit exercitation incididunt
               irure fugiat ex adipisicing enim in. Nulla occaecat sunt officia non enim deserunt proident. Ea magna
               deserunt dolore id irure proident do voluptate. Ut quis voluptate adipisicing fugiat eiusmod aliquip

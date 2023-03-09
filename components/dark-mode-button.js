@@ -2,16 +2,18 @@ import { useTheme } from "next-themes";
 import { useEffect } from "react";
 
 export default function DarkModeButton() {
-    const {theme, setTheme} = useTheme()
+    const themeApi = useTheme()
+    const { theme, setTheme } = themeApi;
 
     useEffect(() => {
-      let darkModeToggle = document.querySelector('#dark-mode');
-      darkModeToggle.checked = (theme === 'dark' ? true : false);
+        let darkModeToggle = document.querySelector('#dark-mode');
+        darkModeToggle.checked = ((theme === "dark") ? true : false);
     }, [])
-    
+
+
     /* handles dark mode toggle */
     const handleDarkMode = () => {
-        setTheme(theme === 'dark' ? 'light' : 'dark')
+        setTheme(theme === "dark" ? 'light' : 'dark')
     }
 
     return (

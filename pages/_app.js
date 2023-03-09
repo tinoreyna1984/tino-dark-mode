@@ -5,7 +5,7 @@ import { ThemeProvider } from "next-themes"
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <ThemeProvider attribute="class">
+      <ThemeProvider enableSystem={false} attribute="class">
         <Navbar />
         <Component {...pageProps} />
       </ThemeProvider>
